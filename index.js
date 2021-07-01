@@ -6,7 +6,7 @@ const app = express()
 app.use(bodyPaser.urlencoded({extended: true}))
 app.get("/",function(req,res){
 
-console.log("Steeelll")
+console.log("response")
 console.log(__dirname +"/index.html" )
 res.sendFile(__dirname +"/index.html")
 
